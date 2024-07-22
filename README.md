@@ -1,6 +1,8 @@
+# Image clicker
+
 ## About
 
-Image Clicker is a script that clicks on the center of any images it finds on the screen.
+Image clicker is a script that clicks on the center of any images it finds on the screen.
 
 ## How to use
 
@@ -23,4 +25,3 @@ This project uses the following libraries:
 - [ ] % of confidence
 - [ ] CLI
 - [ ] GUI
-# image-clicker
