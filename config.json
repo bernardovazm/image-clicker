@@ -1,0 +1,8 @@
+{
+  "images_path": "images",
+  "key_quit": "esc",
+  "file_extensions": [".png", ".jpg"],
+  "should_return_position": false,
+  "grayscale": true,
+  "duration": 0.1
+}
