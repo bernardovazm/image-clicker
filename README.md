@@ -14,12 +14,14 @@ You can create a config.json file in the same folder of image-clicker.exe and se
 
 ```json
 {
+  "is_logger_active": false,
   "images_path": "images",
   "key_quit": "esc",
   "file_extensions": [".png", ".jpg"],
   "should_return_position": false,
   "grayscale": true,
-  "duration": 0.1
+  "duration": 0.1,
+  "confidence": 1.0
 }
 ```
 
@@ -43,6 +45,6 @@ Build generated with PyInstaller.
 
 - [x] Config file
 - [x] Custom vars
-- [ ] Set % of confidence
+- [x] Set % of confidence
 - [ ] CLI
 - [ ] GUI

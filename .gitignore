@@ -1,0 +1,17 @@
+# Diretórios gerados pelo PyInstaller
+/build/
+dist/
+*.spec
+
+# Arquivos de cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ambiente virtual
+venv/
+.env/
+
+# Configurações do IDE
+.vscode/
+.idea/
