@@ -21,7 +21,19 @@ You can create a config.json file in the same folder of image-clicker.exe and se
   "should_return_position": false,
   "grayscale": true,
   "duration": 0.1,
-  "confidence": 1.0
+  "confidence": 1.0,
+  "scheduled_images": {
+    "image.png": {
+      "intervals": [
+        {
+          "start_time": "00:00",
+          "end_time": "00:01"
+        }
+      ],
+      "active": true,
+      "clicked": false
+    }
+  }
 }
 ```
 
@@ -40,11 +52,3 @@ The following modules were used:
 - JSON
 
 Build generated with PyInstaller.
-
-## To do
-
-- [x] Config file
-- [x] Custom vars
-- [x] Set % of confidence
-- [ ] CLI
-- [ ] GUI

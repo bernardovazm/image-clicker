@@ -1,0 +1,4 @@
+pyautogui>=0.9.53
+keyboard>=0.13.5
+opencv-python>=4.7.0
+Pillow>=9.5.0
